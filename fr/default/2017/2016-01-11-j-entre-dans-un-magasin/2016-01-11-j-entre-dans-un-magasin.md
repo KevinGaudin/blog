@@ -62,7 +62,7 @@ Ce vendeur me propose désormais des préservatifs à chaque visite, en ajoutant
 
 ***
 
-**J'entre dans un magasin** pour acheter du lait. Je trouve une bouteille et m'apprête à l'acheter quand je me rends compte qu'il s'agit de lait entier. Je repose donc la bouteille et en prends une autre, de lait demi-écrémé.
+**J'entre dans un magasin** pour acheter du lait. Je trouve une bouteille et m'apprête à l'acheter quand je me rends compte qu'il s'agit de lait entier, alors qu'il me fallait du demi-écrémé. Je repose la bouteille et prends une autre qui correspond mieux à ma liste.
 
 Depuis, chaque fois que je reviens dans la boutique, on me propose du lait entier en me demandant pourquoi je n'ai pas "finalisé mon achat". Je n'aime pas le lait, je faisais une course pour un ami.
 
@@ -73,12 +73,14 @@ Depuis, chaque fois que je reviens dans la boutique, on me propose du lait entie
 > – Monsieur Schapira, j'ai reçu une superbe livraison de rhum vieux. Une bouteille ?  
 > – Non, merci. Ce n'est pas le moment.  
 > – Vous êtes sûr ? Pourtant, vous avez acheté 5 bouteilles ces trois derniers mois, je sais de source sûre que vous buvez du rhum.
-> – C'est vrai, j'apprécie le bon rhum, mais il est 9h du matin.
+> – C'est vrai, j'apprécie le bon rhum, mais vous voyez, là, je suis accompagné. Et puis quand même… il est 9h du matin !
 > – Et ?
 
 ***
 
-**J'entre dans un magasin**. Enfin, j'essaie. Devant la porte se trouve un molosse qui me parle d'un produit qui ne m'intéresse pas. Apparemment, il faut que j'attende qu'il ait fini pour entrer. Patient, je le laisse réciter son laïus. Une fois qu'il a fini, il se pousse et je me retrouve face à une seconde armoire à glace qui me demande si je veux qu'il m'emmène dans un autre magasin de l'enseigne "où on fait ses courses plus vite". Je ferais mes courses plus vite si je pouvais entrer.
+**J'entre dans un magasin**. Enfin, j'essaie. Devant la porte se trouve un molosse qui me parle d'un produit qui ne m'intéresse pas. Apparemment, il faut que j'attende qu'il ait fini pour entrer. Patient, je le laisse réciter son laïus. Une fois qu'il a fini, il se pousse et je me retrouve face à une seconde armoire à glace qui me demande si je veux qu'il m'emmène dans un autre magasin de l'enseigne "où on fait ses courses plus vite". 
+
+Je ferais mes courses plus vite si je pouvais entrer.
 
 ***
 
@@ -90,7 +92,7 @@ Depuis, chaque fois que je reviens dans la boutique, on me propose du lait entie
 
 ***
 
-**J'entre dans un magasin** et fais mes courses. À la caisse, la vendeuse me demande si je ne suis pas certains d^être sûr de refuser qu'un livreur me dépose des publicités dans la boite au lettres de mon domicile. Je ne comprends pas la phrase, je ne sais pas quoi répondre.
+**J'entre dans un magasin** et fais mes courses. À la caisse, la vendeuse me demande si je ne suis pas certain d'être sûr de refuser qu'un livreur me dépose des publicités dans la boite au lettres de mon domicile. Je ne comprends pas la phrase, je ne sais pas quoi répondre.
 
 ***
 
@@ -104,9 +106,23 @@ et il s'en va. Il revient cinq minutes après en courant. J'ai à peine le temps
 
 Intrigué, je me dirige vers le TorcheCulcul Triple Épaisseur. Il ne reste qu'un lot.
 
-> Mr Schapire, dernière chance pour du TorcheCulcul Triple Épaisseur ! Après, ça sera trop tard !
+> Mr Schapira, dernière chance pour du TorcheCulcul Triple Épaisseur ! Après, ça sera trop tard !
 
 Cette fois, j'ai compris. Je prends le TorcheCulcul Triple Épaisseur et je repars avec. Le vendeur, satisfait, va chercher son chariot élévateur. Il a une pleine palette de TorcheCulcul en stock, à remettre en rayon.
+
+***
+
+**J'entre dans un magasin**. Le vendeur me dévisage de haut en bas, mais reste perplexe. Il finit par s'approcher et me demande :
+
+> – Excusez-moi, êtes vous un homme ou une femme ?
+> – Pardon ?
+> – Êtes-vous un homme ou une femme ? J'ai besoin de cette information pour vous accueillir et vous diriger vers les produits qui vous intéressent.
+> – Euh, je suis un homme…
+> – Très bien.
+
+Je pose ensuite quelque questions et on m'aiguille vers le produit qui m'intéresse. Il est bleu avec un autocollant de super-héros. J'adore les super-héros, je décide de le prendre. À la caisse, on me demande mon nom, ma date de naissance et ma profession. Je suis un peu gêné et refuse mais il insiste. Si je veux des informations sur le produit, il faut que j'obtempère. Je lui donne donc ce qu'il demande.
+
+> Infirmier, vous êtes sûr ? Vous ne seriez pas plutôt infirmièr**e** ? Cet orthographe est plus répandue parmi nos clients.
 
 ***
 
