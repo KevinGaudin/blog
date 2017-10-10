@@ -6,6 +6,8 @@ type: post
 published: false
 categories:
     - default
+publishDate: '2017-09-14'
+locale: fr_FR
 ---
 
 Me voilà donc installé dans ma nouvelle maison, dans une nouvelle ville, avec un nouvel emploi de Customer Success Manager chez Dareboost… que de changement depuis la fin août et mon départ de Clever-Age ! Histoire de ne pas oublier, je me suis dit que je publierai un petit (pas tant que ça) rapport d'étonnement personnel…
