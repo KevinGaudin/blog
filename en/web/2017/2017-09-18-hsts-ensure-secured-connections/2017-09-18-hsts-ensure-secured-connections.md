@@ -14,9 +14,9 @@ publishDate: '2017-09-18'
 locale: en_US
 ---
 
-_Our regular readers [of the Dareboost blog] already know that **[HTTPS is now a requirement for any websites](https://blog.dareboost.com/en/2016/03/https-requirement-for-your-website/ "HTTPs is a requirement for your website &#124; DareBoost Blog")**. The urge to get rid of unsecured navigation has never been stronger: each release of Google Chrome or Mozilla Firefox comes with a new warning sign for users sharing private data. Soon, all forms will be concerned._
+Our regular readers [of the Dareboost blog] already know that [HTTPS is now a requirement for any websites](https://blog.dareboost.com/en/2016/03/https-requirement-for-your-website/ "HTTPs is a requirement for your website &#124; DareBoost Blog"). The urge to get rid of unsecured navigation has never been stronger: each release of Google Chrome or Mozilla Firefox comes with a new warning sign for users sharing private data. Soon, all forms will be concerned.
 
-_But offering an HTTPS version of your website is not enough to automatically redirect all your HTTP traffic to this secured version._
+But offering an HTTPS version of your website is not enough to automatically redirect all your HTTP traffic to this secured version.
 
 <figure>
     <picture>
@@ -27,9 +27,7 @@ _But offering an HTTPS version of your website is not enough to automatically re
 
 <!-- more -->
 
-<em class="canonical">**Note&nbsp;:** this post has been published first on the [Dareboost's Blog](https://blog.dareboost.com/en/) in [{{ page.title }}]({{ page.canonical }}).</em>
-
-
+<em class="canonical">**Note&nbsp;:**this post first appeared on the [Dareboost's Blog](https://blog.dareboost.com/en/) in [{{ page.title }}]({{ page.canonical }}).</em>
 
 ## Implementing a redirection: a limited solution
 

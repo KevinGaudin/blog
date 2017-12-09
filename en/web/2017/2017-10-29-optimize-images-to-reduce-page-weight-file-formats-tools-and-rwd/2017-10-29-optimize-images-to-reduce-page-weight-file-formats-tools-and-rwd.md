@@ -3,7 +3,7 @@ title: 'Optimize Images to Reduce Page Weight: File Formats, Tools and RWD'
 i18n-key: image-weight-bp-dareboost
 main_image: assets/images/2017-10-29/square.jpg
 date: '2017-10-29'
-lang: fr
+lang: en
 canonical: 'https://blog.dareboost.com/en/2017/10/optimize-images-to-reduce-page-weight-file-formats-tools-and-rwd/'
 type: post
 categories:
@@ -15,7 +15,7 @@ publishDate: '2017-10-29'
 locale: en_US
 ---
 
-_"Reduce the page weight": here is one of the most usual tips in Dareboost reports. According to HTTP Archive trends, images represent 53% of the average pages weight, whether viewed on desktop or mobile devices. When you want to reduce the weight of your web pages, optimizing images should be at the top of your priorities._
+"Reduce the page weight": here is one of the most usual tips in Dareboost reports. According to HTTP Archive trends, images represent 53% of the average pages weight, whether viewed on desktop or mobile devices. When you want to reduce the weight of your web pages, optimizing images should be at the top of your priorities.
 
 <figure>
     <picture>
@@ -24,7 +24,9 @@ _"Reduce the page weight": here is one of the most usual tips in Dareboost repor
     </picture>
 </figure>
 
-<!--more-->
+<!-- more -->
+
+<em class="canonical">**Note&nbsp;:**this post first appeared on the [Dareboost's Blog](https://blog.dareboost.com/en/) in [{{ page.title }}]({{ page.canonical }}).</em>
 
 ## For each image its format
 
