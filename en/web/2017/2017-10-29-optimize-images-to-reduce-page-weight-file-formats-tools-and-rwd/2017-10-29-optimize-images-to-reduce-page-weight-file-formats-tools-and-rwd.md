@@ -33,7 +33,7 @@ locale: en_US
 It is not always easy to find the most suitable image format. Take our logo, for example. We could save it in PNG, JPEG, WebP or SVG.
 The weight of the images would be very different. An empirical test allows us to visualize it:
 
-{% capture img_alt %}PNG 6 Ko ; JPEG 38KB ; WebP 9KB ; SVG 2.5KB (1.4KB gzipped){% endcapture %}
+{% capture img_alt %}PNG 6KB ; JPEG 38KB ; WebP 9KB ; SVG 2.5KB (1.4KB gzipped){% endcapture %}
 {% include rwd-image.html.liquid 
     path="/assets/images/2017-10-29/logo_en_580.png"
     alt=img_alt
@@ -43,7 +43,7 @@ In this case, the most suitable format seems to be SVG, followed closely by PNG.
 
 Let's take a second example, this time with the photograph of a rocket taking off. SVG is just unable to represent this image correctly (we will explain why a little further). Here's what we get, with equivalent visual perception, for JPEG, PNG and WebP formats:
 
-{% capture img_alt %}PNG: 171 KB; JPEG: 33 KB; WebP: 13KB{% endcapture %}
+{% capture img_alt %}PNG: 171KB; JPEG: 33KB; WebP: 13KB{% endcapture %}
 {% include rwd-image.html.liquid 
     path="/assets/images/2017-10-29/rocket_en_580.jpg"
     alt=img_alt
@@ -55,7 +55,7 @@ Here, the results are radically different. To represent the complexity of a phot
 
 When you want to save a JPEG, most of softwares ask what quality to retain, as it is a lossy encoding format. By choosing a quality less than 100%, it is thus possible to save precious bytes by correcting only certain points of the image. Let's try with our image, with quality set to 80%. Then we get a very interesting result: a weight loss of more than 50%, while only a few points of the image have been deeply changed.
 
-{% capture img_alt %}Original JPEG: 33BP. Optimized JPEG: 16KB. Not much differences.{% endcapture %}
+{% capture img_alt %}Original JPEG: 33KB. Optimized JPEG: 16KB. Not much differences.{% endcapture %}
 {% include rwd-image.html.liquid 
     path="/assets/images/2017-10-29/diff_en_580.jpg"
     alt=img_alt
@@ -69,7 +69,7 @@ In the end, all the images appear on the screen in the same way: a rectangle com
 
 ### What does my image represent?
 
-Some file formats encode images in the same way as they appear on the screen: like coloured dot matrices. Each color point is encoded on several bytes and positioned within a map according to its coordinates. That's why these formats are sometimes called "bitmap". Various compression algorithms then reduce the space taken by this information on the disk. For these formats, we speak about "<strong>raster graphics</strong>". Their advantage: they can handle any photograph and some of them, as the PNG format, come with advanced features like color palette optimization or transparency.
+Some file formats encode images in the same way as they appear on the screen: like colored dot matrices. Each color point is encoded on several bytes and positioned within a map according to its coordinates. That's why these formats are sometimes called "bitmap". Various compression algorithms then reduce the space taken by this information on the disk. For these formats, we speak about "<strong>raster graphics</strong>". Their advantage: they can handle any photograph and some of them, as the PNG format, come with advanced features like color palette optimization or transparency.
 
 Unfortunately, this encoding process must define the dimensions of the matrix first, that is to say the resolution of the image, before positioning the points. As a consequence, if you enlarge an existing <strong>JPG</strong>, <strong>PNG</strong> or <strong>WebP</strong> raster graphic, you will dramatically decrease the quality.
 
@@ -100,7 +100,7 @@ many of these services use video formats, with much lighter files! We will come 
 {% include video_as_a_gif.html.liquid
     controls=true
     url="/assets/images/2017-10-29/lenny"
-    alt="Screencast of the ChromeDevTools. We can see a video looping like a GIF, but the code clearly indidcates its a video."
+    alt="Screencast of the ChromeDevTools. We can see a video looping like a GIF, but the code clearly indicates its a video."
 %}
 
 If you still need the GIF format, be aware that a compression algorithm also exists: gifsicle. It can be very useful for manipulating GIF content: reduce the color palette, resize, cut and crop... I sometimes use Gifsicle to encode short recordings of my screen and integrate them into emails, because many mail clients are not able to read embedded videos.
@@ -109,11 +109,11 @@ If you still need the GIF format, be aware that a compression algorithm also exi
 
 Choosing the right file format is not enough to ensure that you will serve the optimum image each time.
 
-Imagine that you are using a 2680-pixel wide image to decorate the background of a site designed for a computer with high-resolution display (<abbr title="Hight Dot Per Inch">HiDPI</abbr>, including Retina™). On a mobile device of lower resolution, in 3G, not only will the browser load a lot of unnecessary data but,, the browser will also resize the image with its internal algorithm for the image to fit in the width of the phone screen. The final result will be degraded, not to mention the rendering latency... Instead, you would rather produce several versions of the original image, in different resolutions and let the browser choose the image to download, depending on its execution context.
+Imagine that you are using a 2680-pixel wide image to decorate the background of a site designed for a computer with high-resolution display (<abbr title="Hight Dot Per Inch">HiDPI</abbr>, including Retina™). On a mobile device of lower resolution, in 3G, not only will the browser load a lot of unnecessary data but, the browser will also resize the image with its internal algorithm for the image to fit in the width of the phone screen. The final result will be degraded, not to mention the rendering latency... Instead, you would rather produce several versions of the original image, in different resolutions and let the browser choose the image to download, depending on its execution context.
 
 "<strong>Responsive Images</strong>" is a denomination that embodies all the techniques that consist in producing, for the same area of a Web page, several images adapted to the possible contexts of navigation. For background and decorative images, you can use CSS media-queries.
 
-For non-decorative images, the <strong>picture</strong> specification has added ghe attribute <code>srcset</code> to the <code>&lt;img&gt;</code> element in 2014 (yes, three years already!). The <code>srcset</code> is a collection of URLs pointing to multiple versions of the same image, with different resolutions (but still the same width-to-height ratio). It gives the browser the responsibility to choose the version of the image to download, depending on the current context. Unfortunately, without having downloaded the CSS files from the web page, the browser can not understand the relative space occupied by the image in the window, so the <code>sizes</code> attribute must also be defined.
+For non-decorative images, the <strong>picture</strong> specification has added the attribute <code>srcset</code> to the <code>&lt;img&gt;</code> element in 2014 (yes, three years already!). The <code>srcset</code> is a collection of URLs pointing to multiple versions of the same image, with different resolutions (but still the same width-to-height ratio). It gives the browser the responsibility to choose the version of the image to download, depending on the current context. Unfortunately, without having downloaded the CSS files from the web page, the browser can not understand the relative space occupied by the image in the window, so the <code>sizes</code> attribute must also be defined.
 
 If you want to offer, in addition to your optimized image, formats supported by a limited number of browsers (such as WebP) or if you want to manage different width-to-height ratios depending on the context (a matter of artistic direction), you can frame your image with a <code>picture</code> element and several <code>source</code> elements:
 

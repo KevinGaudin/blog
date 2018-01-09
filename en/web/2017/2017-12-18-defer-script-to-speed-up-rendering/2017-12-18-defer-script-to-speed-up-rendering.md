@@ -31,7 +31,7 @@ This is not a continuous process though, because of Javascript. As these scripts
 
 In this article, we will focus on what can be done about JavaScript files to improve render timings.
 
-{% capture img_alt %}Capture of the Chrome DevTools Performance tab. A loading timeline displays the different steps in colour. A large yellow area is surrounded by blue spots. The first image appears only at the end.{% endcapture %}
+{% capture img_alt %}Capture of the Chrome DevTools Performance tab. A loading timeline displays the different steps in color. A large yellow area is surrounded by blue spots. The first image appears only at the end.{% endcapture %}
 {% capture img_caption %}Even if the construction of the DOM (in blue) occurs mostly before the execution of JavaScript (in yellow), it only ends after. In this "default" configuration of script loading, the DOM is built very late. The display is delayed.{% endcapture %}
 {% include rwd-image.html.liquid 
     path="/assets/images/2017-12-18/1_block.png"
@@ -53,7 +53,7 @@ All other scripts should then be delayed, asynchronized, or moved to the footer,
 
 ## Move noncritical scripts at the bottom of the page
 
-A very simple and intuitive way to defer the browser's parsing of JavaScript files is to place the declarations at the end of the HTML page, just before the </body> tag. Doing so, the browser will not have any knowledge of the scripts until it has almost built the entire DOM.
+A very simple and intuitive way to defer the browser's parsing of JavaScript files is to place the declarations at the end of the HTML page, just before the `</body>` tag. Doing so, the browser will not have any knowledge of the scripts until it has almost built the entire DOM.
 
 Although this technique appears to be suitable for most of the cases, it presents a serious drawback. Not only it delays scripts evaluation, but it also delays their downloading which excludes its use for large scripts. Moreover, if your resources are not served by HTTP/2 or come from an external domain, you will also add a substantial resolution time to the retrieval time.
 
